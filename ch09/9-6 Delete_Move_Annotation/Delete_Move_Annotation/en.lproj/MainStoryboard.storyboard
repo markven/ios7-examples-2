@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tOj-jy-0PK"/>
+                        <viewControllerLayoutGuide type="bottom" id="NNL-8f-ep5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XgZ-cX-bXp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m26-2B-jmP">
+                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Pin" id="TSo-cR-yp7">
+                                        <connections>
+                                            <action selector="pinButton:" destination="2" id="OYr-2o-32l"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Delete" id="f7m-5i-92Z">
+                                        <connections>
+                                            <action selector="deleteButton:" destination="2" id="YBA-x2-gSt"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Move" id="rfq-8q-v6y">
+                                        <connections>
+                                            <action selector="moveButton:" destination="2" id="Zqn-wh-H09"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XgZ-cX-bXp" firstAttribute="top" secondItem="3" secondAttribute="top" id="BfQ-GP-64F"/>
+                            <constraint firstItem="XgZ-cX-bXp" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="ISM-D4-AmV"/>
+                            <constraint firstItem="m26-2B-jmP" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="Jjr-Tn-P7c"/>
+                            <constraint firstItem="m26-2B-jmP" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="MUc-yv-deG"/>
+                            <constraint firstItem="m26-2B-jmP" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="MsF-2y-1Is"/>
+                            <constraint firstItem="XgZ-cX-bXp" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="hVA-Dj-oWN"/>
+                            <constraint firstItem="XgZ-cX-bXp" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="uml-t1-tUI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myMap" destination="XgZ-cX-bXp" id="HhY-kp-e8l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

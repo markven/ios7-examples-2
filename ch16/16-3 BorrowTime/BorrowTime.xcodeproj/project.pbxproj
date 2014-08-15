@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BC1FD0E1789A89200AB9B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1FD0D1789A89200AB9B18 /* Foundation.framework */; };
+		6BC1FD101789A89200AB9B18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1FD0F1789A89200AB9B18 /* CoreGraphics.framework */; };
+		6BC1FD121789A89200AB9B18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1FD111789A89200AB9B18 /* UIKit.framework */; };
+		6BC1FD181789A89200AB9B18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1FD161789A89200AB9B18 /* InfoPlist.strings */; };
+		6BC1FD1A1789A89200AB9B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1FD191789A89200AB9B18 /* main.m */; };
+		6BC1FD1E1789A89200AB9B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1FD1D1789A89200AB9B18 /* AppDelegate.m */; };
+		6BC1FD211789A89200AB9B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1FD1F1789A89200AB9B18 /* Main.storyboard */; };
+		6BC1FD241789A89200AB9B18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1FD231789A89200AB9B18 /* ViewController.m */; };
+		6BC1FD261789A89200AB9B18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1FD251789A89200AB9B18 /* Images.xcassets */; };
+		6BC1FD2D1789A89200AB9B18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1FD2C1789A89200AB9B18 /* XCTest.framework */; };
+		6BC1FD2E1789A89200AB9B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1FD0D1789A89200AB9B18 /* Foundation.framework */; };
+		6BC1FD2F1789A89200AB9B18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1FD111789A89200AB9B18 /* UIKit.framework */; };
+		6BC1FD371789A89200AB9B18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1FD351789A89200AB9B18 /* InfoPlist.strings */; };
+		6BC1FD391789A89200AB9B18 /* BorrowTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1FD381789A89200AB9B18 /* BorrowTimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BC1FD301789A89200AB9B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BC1FD021789A89200AB9B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC1FD091789A89200AB9B18;
+			remoteInfo = BorrowTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BC1FD0A1789A89200AB9B18 /* BorrowTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorrowTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC1FD0D1789A89200AB9B18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BC1FD0F1789A89200AB9B18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BC1FD111789A89200AB9B18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BC1FD151789A89200AB9B18 /* BorrowTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BorrowTime-Info.plist"; sourceTree = "<group>"; };
+		6BC1FD171789A89200AB9B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BC1FD191789A89200AB9B18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BC1FD1B1789A89200AB9B18 /* BorrowTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BorrowTime-Prefix.pch"; sourceTree = "<group>"; };
+		6BC1FD1C1789A89200AB9B18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BC1FD1D1789A89200AB9B18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BC1FD201789A89200AB9B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BC1FD221789A89200AB9B18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BC1FD231789A89200AB9B18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BC1FD251789A89200AB9B18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BC1FD2B1789A89200AB9B18 /* BorrowTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorrowTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC1FD2C1789A89200AB9B18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6BC1FD341789A89200AB9B18 /* BorrowTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BorrowTimeTests-Info.plist"; sourceTree = "<group>"; };
+		6BC1FD361789A89200AB9B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BC1FD381789A89200AB9B18 /* BorrowTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowTimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC1FD071789A89200AB9B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1FD101789A89200AB9B18 /* CoreGraphics.framework in Frameworks */,
+				6BC1FD121789A89200AB9B18 /* UIKit.framework in Frameworks */,
+				6BC1FD0E1789A89200AB9B18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC1FD281789A89200AB9B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1FD2D1789A89200AB9B18 /* XCTest.framework in Frameworks */,
+				6BC1FD2F1789A89200AB9B18 /* UIKit.framework in Frameworks */,
+				6BC1FD2E1789A89200AB9B18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC1FD011789A89200AB9B18 = {
+			isa = PBXGroup;
+			children = (
+				6BC1FD131789A89200AB9B18 /* BorrowTime */,
+				6BC1FD321789A89200AB9B18 /* BorrowTimeTests */,
+				6BC1FD0C1789A89200AB9B18 /* Frameworks */,
+				6BC1FD0B1789A89200AB9B18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC1FD0B1789A89200AB9B18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1FD0A1789A89200AB9B18 /* BorrowTime.app */,
+				6BC1FD2B1789A89200AB9B18 /* BorrowTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC1FD0C1789A89200AB9B18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1FD0D1789A89200AB9B18 /* Foundation.framework */,
+				6BC1FD0F1789A89200AB9B18 /* CoreGraphics.framework */,
+				6BC1FD111789A89200AB9B18 /* UIKit.framework */,
+				6BC1FD2C1789A89200AB9B18 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BC1FD131789A89200AB9B18 /* BorrowTime */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1FD1C1789A89200AB9B18 /* AppDelegate.h */,
+				6BC1FD1D1789A89200AB9B18 /* AppDelegate.m */,
+				6BC1FD1F1789A89200AB9B18 /* Main.storyboard */,
+				6BC1FD221789A89200AB9B18 /* ViewController.h */,
+				6BC1FD231789A89200AB9B18 /* ViewController.m */,
+				6BC1FD251789A89200AB9B18 /* Images.xcassets */,
+				6BC1FD141789A89200AB9B18 /* Supporting Files */,
+			);
+			path = BorrowTime;
+			sourceTree = "<group>";
+		};
+		6BC1FD141789A89200AB9B18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1FD151789A89200AB9B18 /* BorrowTime-Info.plist */,
+				6BC1FD161789A89200AB9B18 /* InfoPlist.strings */,
+				6BC1FD191789A89200AB9B18 /* main.m */,
+				6BC1FD1B1789A89200AB9B18 /* BorrowTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BC1FD321789A89200AB9B18 /* BorrowTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1FD381789A89200AB9B18 /* BorrowTimeTests.m */,
+				6BC1FD331789A89200AB9B18 /* Supporting Files */,
+			);
+			path = BorrowTimeTests;
+			sourceTree = "<group>";
+		};
+		6BC1FD331789A89200AB9B18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1FD341789A89200AB9B18 /* BorrowTimeTests-Info.plist */,
+				6BC1FD351789A89200AB9B18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC1FD091789A89200AB9B18 /* BorrowTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC1FD3C1789A89200AB9B18 /* Build configuration list for PBXNativeTarget "BorrowTime" */;
+			buildPhases = (
+				6BC1FD061789A89200AB9B18 /* Sources */,
+				6BC1FD071789A89200AB9B18 /* Frameworks */,
+				6BC1FD081789A89200AB9B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BorrowTime;
+			productName = BorrowTime;
+			productReference = 6BC1FD0A1789A89200AB9B18 /* BorrowTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BC1FD2A1789A89200AB9B18 /* BorrowTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC1FD3F1789A89200AB9B18 /* Build configuration list for PBXNativeTarget "BorrowTimeTests" */;
+			buildPhases = (
+				6BC1FD271789A89200AB9B18 /* Sources */,
+				6BC1FD281789A89200AB9B18 /* Frameworks */,
+				6BC1FD291789A89200AB9B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC1FD311789A89200AB9B18 /* PBXTargetDependency */,
+			);
+			name = BorrowTimeTests;
+			productName = BorrowTimeTests;
+			productReference = 6BC1FD2B1789A89200AB9B18 /* BorrowTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC1FD021789A89200AB9B18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ckk;
+				TargetAttributes = {
+					6BC1FD091789A89200AB9B18 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					6BC1FD2A1789A89200AB9B18 = {
+						TestTargetID = 6BC1FD091789A89200AB9B18;
+					};
+				};
+			};
+			buildConfigurationList = 6BC1FD051789A89200AB9B18 /* Build configuration list for PBXProject "BorrowTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BC1FD011789A89200AB9B18;
+			productRefGroup = 6BC1FD0B1789A89200AB9B18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC1FD091789A89200AB9B18 /* BorrowTime */,
+				6BC1FD2A1789A89200AB9B18 /* BorrowTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BC1FD081789A89200AB9B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1FD261789A89200AB9B18 /* Images.xcassets in Resources */,
+				6BC1FD181789A89200AB9B18 /* InfoPlist.strings in Resources */,
+				6BC1FD211789A89200AB9B18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC1FD291789A89200AB9B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1FD371789A89200AB9B18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC1FD061789A89200AB9B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1FD241789A89200AB9B18 /* ViewController.m in Sources */,
+				6BC1FD1E1789A89200AB9B18 /* AppDelegate.m in Sources */,
+				6BC1FD1A1789A89200AB9B18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC1FD271789A89200AB9B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1FD391789A89200AB9B18 /* BorrowTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BC1FD311789A89200AB9B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BC1FD091789A89200AB9B18 /* BorrowTime */;
+			targetProxy = 6BC1FD301789A89200AB9B18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BC1FD161789A89200AB9B18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC1FD171789A89200AB9B18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BC1FD1F1789A89200AB9B18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC1FD201789A89200AB9B18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BC1FD351789A89200AB9B18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC1FD361789A89200AB9B18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BC1FD3A1789A89200AB9B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BC1FD3B1789A89200AB9B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BC1FD3D1789A89200AB9B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BorrowTime/BorrowTime-Prefix.pch";
+				INFOPLIST_FILE = "BorrowTime/BorrowTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BC1FD3E1789A89200AB9B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BorrowTime/BorrowTime-Prefix.pch";
+				INFOPLIST_FILE = "BorrowTime/BorrowTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BC1FD401789A89200AB9B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BorrowTime.app/BorrowTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BorrowTime/BorrowTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BorrowTimeTests/BorrowTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6BC1FD411789A89200AB9B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BorrowTime.app/BorrowTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BorrowTime/BorrowTime-Prefix.pch";
+				INFOPLIST_FILE = "BorrowTimeTests/BorrowTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC1FD051789A89200AB9B18 /* Build configuration list for PBXProject "BorrowTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC1FD3A1789A89200AB9B18 /* Debug */,
+				6BC1FD3B1789A89200AB9B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC1FD3C1789A89200AB9B18 /* Build configuration list for PBXNativeTarget "BorrowTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC1FD3D1789A89200AB9B18 /* Debug */,
+				6BC1FD3E1789A89200AB9B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC1FD3F1789A89200AB9B18 /* Build configuration list for PBXNativeTarget "BorrowTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC1FD401789A89200AB9B18 /* Debug */,
+				6BC1FD411789A89200AB9B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC1FD021789A89200AB9B18 /* Project object */;
+}

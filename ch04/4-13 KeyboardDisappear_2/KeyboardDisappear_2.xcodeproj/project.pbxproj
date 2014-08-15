@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BCC1339159A0ED900DDD25B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCC1338159A0ED900DDD25B /* UIKit.framework */; };
+		6BCC133B159A0ED900DDD25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCC133A159A0ED900DDD25B /* Foundation.framework */; };
+		6BCC133D159A0ED900DDD25B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCC133C159A0ED900DDD25B /* CoreGraphics.framework */; };
+		6BCC1343159A0ED900DDD25B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC1341159A0ED900DDD25B /* InfoPlist.strings */; };
+		6BCC1345159A0ED900DDD25B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC1344159A0ED900DDD25B /* main.m */; };
+		6BCC1349159A0ED900DDD25B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC1348159A0ED900DDD25B /* AppDelegate.m */; };
+		6BCC134C159A0ED900DDD25B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC134A159A0ED900DDD25B /* MainStoryboard.storyboard */; };
+		6BCC134F159A0ED900DDD25B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC134E159A0ED900DDD25B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BCC1334159A0ED900DDD25B /* KeyboardDisappear_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardDisappear_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCC1338159A0ED900DDD25B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BCC133A159A0ED900DDD25B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BCC133C159A0ED900DDD25B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BCC1340159A0ED900DDD25B /* KeyboardDisappear_2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardDisappear_2-Info.plist"; sourceTree = "<group>"; };
+		6BCC1342159A0ED900DDD25B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BCC1344159A0ED900DDD25B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BCC1346159A0ED900DDD25B /* KeyboardDisappear_2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyboardDisappear_2-Prefix.pch"; sourceTree = "<group>"; };
+		6BCC1347159A0ED900DDD25B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BCC1348159A0ED900DDD25B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BCC134B159A0ED900DDD25B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6BCC134D159A0ED900DDD25B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BCC134E159A0ED900DDD25B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCC1331159A0ED900DDD25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCC1339159A0ED900DDD25B /* UIKit.framework in Frameworks */,
+				6BCC133B159A0ED900DDD25B /* Foundation.framework in Frameworks */,
+				6BCC133D159A0ED900DDD25B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BCC1329159A0ED900DDD25B = {
+			isa = PBXGroup;
+			children = (
+				6BCC133E159A0ED900DDD25B /* KeyboardDisappear_2 */,
+				6BCC1337159A0ED900DDD25B /* Frameworks */,
+				6BCC1335159A0ED900DDD25B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCC1335159A0ED900DDD25B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC1334159A0ED900DDD25B /* KeyboardDisappear_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCC1337159A0ED900DDD25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC1338159A0ED900DDD25B /* UIKit.framework */,
+				6BCC133A159A0ED900DDD25B /* Foundation.framework */,
+				6BCC133C159A0ED900DDD25B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BCC133E159A0ED900DDD25B /* KeyboardDisappear_2 */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC1347159A0ED900DDD25B /* AppDelegate.h */,
+				6BCC1348159A0ED900DDD25B /* AppDelegate.m */,
+				6BCC134A159A0ED900DDD25B /* MainStoryboard.storyboard */,
+				6BCC134D159A0ED900DDD25B /* ViewController.h */,
+				6BCC134E159A0ED900DDD25B /* ViewController.m */,
+				6BCC133F159A0ED900DDD25B /* Supporting Files */,
+			);
+			path = KeyboardDisappear_2;
+			sourceTree = "<group>";
+		};
+		6BCC133F159A0ED900DDD25B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC1340159A0ED900DDD25B /* KeyboardDisappear_2-Info.plist */,
+				6BCC1341159A0ED900DDD25B /* InfoPlist.strings */,
+				6BCC1344159A0ED900DDD25B /* main.m */,
+				6BCC1346159A0ED900DDD25B /* KeyboardDisappear_2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCC1333159A0ED900DDD25B /* KeyboardDisappear_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCC1352159A0ED900DDD25B /* Build configuration list for PBXNativeTarget "KeyboardDisappear_2" */;
+			buildPhases = (
+				6BCC1330159A0ED900DDD25B /* Sources */,
+				6BCC1331159A0ED900DDD25B /* Frameworks */,
+				6BCC1332159A0ED900DDD25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardDisappear_2;
+			productName = KeyboardDisappear_2;
+			productReference = 6BCC1334159A0ED900DDD25B /* KeyboardDisappear_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCC132B159A0ED900DDD25B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "KoKang Chu";
+			};
+			buildConfigurationList = 6BCC132E159A0ED900DDD25B /* Build configuration list for PBXProject "KeyboardDisappear_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BCC1329159A0ED900DDD25B;
+			productRefGroup = 6BCC1335159A0ED900DDD25B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCC1333159A0ED900DDD25B /* KeyboardDisappear_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCC1332159A0ED900DDD25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCC1343159A0ED900DDD25B /* InfoPlist.strings in Resources */,
+				6BCC134C159A0ED900DDD25B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCC1330159A0ED900DDD25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCC1345159A0ED900DDD25B /* main.m in Sources */,
+				6BCC1349159A0ED900DDD25B /* AppDelegate.m in Sources */,
+				6BCC134F159A0ED900DDD25B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BCC1341159A0ED900DDD25B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCC1342159A0ED900DDD25B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BCC134A159A0ED900DDD25B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCC134B159A0ED900DDD25B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCC1350159A0ED900DDD25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BCC1351159A0ED900DDD25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BCC1353159A0ED900DDD25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardDisappear_2/KeyboardDisappear_2-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardDisappear_2/KeyboardDisappear_2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BCC1354159A0ED900DDD25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardDisappear_2/KeyboardDisappear_2-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardDisappear_2/KeyboardDisappear_2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCC132E159A0ED900DDD25B /* Build configuration list for PBXProject "KeyboardDisappear_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCC1350159A0ED900DDD25B /* Debug */,
+				6BCC1351159A0ED900DDD25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCC1352159A0ED900DDD25B /* Build configuration list for PBXNativeTarget "KeyboardDisappear_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCC1353159A0ED900DDD25B /* Debug */,
+				6BCC1354159A0ED900DDD25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BCC132B159A0ED900DDD25B /* Project object */;
+}

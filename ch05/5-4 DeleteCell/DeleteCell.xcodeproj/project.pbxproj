@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B814920159AA4D30030F68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B81491F159AA4D30030F68C /* UIKit.framework */; };
+		6B814922159AA4D30030F68C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B814921159AA4D30030F68C /* Foundation.framework */; };
+		6B814924159AA4D30030F68C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B814923159AA4D30030F68C /* CoreGraphics.framework */; };
+		6B81492A159AA4D30030F68C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B814928159AA4D30030F68C /* InfoPlist.strings */; };
+		6B81492C159AA4D30030F68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B81492B159AA4D30030F68C /* main.m */; };
+		6B814930159AA4D30030F68C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B81492F159AA4D30030F68C /* AppDelegate.m */; };
+		6B814933159AA4D30030F68C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B814931159AA4D30030F68C /* MainStoryboard.storyboard */; };
+		6B814936159AA4D30030F68C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B814935159AA4D30030F68C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B81491B159AA4D30030F68C /* DeleteCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B81491F159AA4D30030F68C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B814921159AA4D30030F68C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B814923159AA4D30030F68C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B814927159AA4D30030F68C /* DeleteCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeleteCell-Info.plist"; sourceTree = "<group>"; };
+		6B814929159AA4D30030F68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B81492B159AA4D30030F68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B81492D159AA4D30030F68C /* DeleteCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeleteCell-Prefix.pch"; sourceTree = "<group>"; };
+		6B81492E159AA4D30030F68C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B81492F159AA4D30030F68C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B814932159AA4D30030F68C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6B814934159AA4D30030F68C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B814935159AA4D30030F68C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B814918159AA4D30030F68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B814920159AA4D30030F68C /* UIKit.framework in Frameworks */,
+				6B814922159AA4D30030F68C /* Foundation.framework in Frameworks */,
+				6B814924159AA4D30030F68C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B814910159AA4D30030F68C = {
+			isa = PBXGroup;
+			children = (
+				6B814925159AA4D30030F68C /* DeleteCell */,
+				6B81491E159AA4D30030F68C /* Frameworks */,
+				6B81491C159AA4D30030F68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B81491C159AA4D30030F68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B81491B159AA4D30030F68C /* DeleteCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B81491E159AA4D30030F68C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B81491F159AA4D30030F68C /* UIKit.framework */,
+				6B814921159AA4D30030F68C /* Foundation.framework */,
+				6B814923159AA4D30030F68C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B814925159AA4D30030F68C /* DeleteCell */ = {
+			isa = PBXGroup;
+			children = (
+				6B81492E159AA4D30030F68C /* AppDelegate.h */,
+				6B81492F159AA4D30030F68C /* AppDelegate.m */,
+				6B814931159AA4D30030F68C /* MainStoryboard.storyboard */,
+				6B814934159AA4D30030F68C /* ViewController.h */,
+				6B814935159AA4D30030F68C /* ViewController.m */,
+				6B814926159AA4D30030F68C /* Supporting Files */,
+			);
+			path = DeleteCell;
+			sourceTree = "<group>";
+		};
+		6B814926159AA4D30030F68C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B814927159AA4D30030F68C /* DeleteCell-Info.plist */,
+				6B814928159AA4D30030F68C /* InfoPlist.strings */,
+				6B81492B159AA4D30030F68C /* main.m */,
+				6B81492D159AA4D30030F68C /* DeleteCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B81491A159AA4D30030F68C /* DeleteCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B814939159AA4D30030F68C /* Build configuration list for PBXNativeTarget "DeleteCell" */;
+			buildPhases = (
+				6B814917159AA4D30030F68C /* Sources */,
+				6B814918159AA4D30030F68C /* Frameworks */,
+				6B814919159AA4D30030F68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeleteCell;
+			productName = DeleteCell;
+			productReference = 6B81491B159AA4D30030F68C /* DeleteCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B814912159AA4D30030F68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "KoKang Chu";
+			};
+			buildConfigurationList = 6B814915159AA4D30030F68C /* Build configuration list for PBXProject "DeleteCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B814910159AA4D30030F68C;
+			productRefGroup = 6B81491C159AA4D30030F68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B81491A159AA4D30030F68C /* DeleteCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B814919159AA4D30030F68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B81492A159AA4D30030F68C /* InfoPlist.strings in Resources */,
+				6B814933159AA4D30030F68C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B814917159AA4D30030F68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B81492C159AA4D30030F68C /* main.m in Sources */,
+				6B814930159AA4D30030F68C /* AppDelegate.m in Sources */,
+				6B814936159AA4D30030F68C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B814928159AA4D30030F68C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B814929159AA4D30030F68C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B814931159AA4D30030F68C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B814932159AA4D30030F68C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B814937159AA4D30030F68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B814938159AA4D30030F68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B81493A159AA4D30030F68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeleteCell/DeleteCell-Prefix.pch";
+				INFOPLIST_FILE = "DeleteCell/DeleteCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B81493B159AA4D30030F68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeleteCell/DeleteCell-Prefix.pch";
+				INFOPLIST_FILE = "DeleteCell/DeleteCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B814915159AA4D30030F68C /* Build configuration list for PBXProject "DeleteCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B814937159AA4D30030F68C /* Debug */,
+				6B814938159AA4D30030F68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B814939159AA4D30030F68C /* Build configuration list for PBXNativeTarget "DeleteCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B81493A159AA4D30030F68C /* Debug */,
+				6B81493B159AA4D30030F68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B814912159AA4D30030F68C /* Project object */;
+}

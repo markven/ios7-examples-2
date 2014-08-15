@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fpm-w7-9qv"/>
+                        <viewControllerLayoutGuide type="bottom" id="bFr-Ew-yS6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ag3-dV-cdj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BtT-Ba-Snl">
+                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="標準" id="H3e-1s-FPx">
+                                        <connections>
+                                            <action selector="standardButton:" destination="2" id="uaF-hY-kcT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="混合" id="YtZ-pO-ykZ">
+                                        <connections>
+                                            <action selector="hybridButton:" destination="2" id="bZs-Kg-KGC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="衛星" id="huh-wB-Yet">
+                                        <connections>
+                                            <action selector="satelliteButton:" destination="2" id="xZJ-Bt-TwT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ag3-dV-cdj" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="Jtj-77-95m"/>
+                            <constraint firstItem="ag3-dV-cdj" firstAttribute="top" secondItem="3" secondAttribute="top" id="S2s-kF-SGm"/>
+                            <constraint firstItem="BtT-Ba-Snl" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="VdO-WR-r6I"/>
+                            <constraint firstItem="ag3-dV-cdj" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="cWb-hd-azb"/>
+                            <constraint firstItem="ag3-dV-cdj" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="eqy-0M-8nF"/>
+                            <constraint firstItem="BtT-Ba-Snl" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="qVx-31-DZz"/>
+                            <constraint firstItem="BtT-Ba-Snl" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="vj0-8h-Z8U"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myMap" destination="ag3-dV-cdj" id="97B-a9-9pI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

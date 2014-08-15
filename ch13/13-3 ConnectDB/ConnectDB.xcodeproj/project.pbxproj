@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4E6077158CEF7A00595BD4 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4E6076158CEF7A00595BD4 /* libsqlite3.0.dylib */; };
+		6BD92BB01586FB42001ED6EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD92BAF1586FB42001ED6EC /* UIKit.framework */; };
+		6BD92BB21586FB42001ED6EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD92BB11586FB42001ED6EC /* Foundation.framework */; };
+		6BD92BB41586FB42001ED6EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD92BB31586FB42001ED6EC /* CoreGraphics.framework */; };
+		6BD92BBA1586FB42001ED6EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BD92BB81586FB42001ED6EC /* InfoPlist.strings */; };
+		6BD92BBC1586FB42001ED6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD92BBB1586FB42001ED6EC /* main.m */; };
+		6BD92BC01586FB42001ED6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD92BBF1586FB42001ED6EC /* AppDelegate.m */; };
+		6BD92BC31586FB42001ED6EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD92BC11586FB42001ED6EC /* MainStoryboard.storyboard */; };
+		6BD92BC61586FB42001ED6EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD92BC51586FB42001ED6EC /* ViewController.m */; };
+		6BD92BCF1586FCCE001ED6EC /* mydb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6BD92BCE1586FCCE001ED6EC /* mydb.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B4E6076158CEF7A00595BD4 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		6BD92BAB1586FB42001ED6EC /* ConnectDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD92BAF1586FB42001ED6EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BD92BB11586FB42001ED6EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BD92BB31586FB42001ED6EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BD92BB71586FB42001ED6EC /* ConnectDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectDB-Info.plist"; sourceTree = "<group>"; };
+		6BD92BB91586FB42001ED6EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BD92BBB1586FB42001ED6EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BD92BBD1586FB42001ED6EC /* ConnectDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConnectDB-Prefix.pch"; sourceTree = "<group>"; };
+		6BD92BBE1586FB42001ED6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BD92BBF1586FB42001ED6EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BD92BC21586FB42001ED6EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6BD92BC41586FB42001ED6EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BD92BC51586FB42001ED6EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BD92BCE1586FCCE001ED6EC /* mydb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydb.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD92BA81586FB42001ED6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4E6077158CEF7A00595BD4 /* libsqlite3.0.dylib in Frameworks */,
+				6BD92BB01586FB42001ED6EC /* UIKit.framework in Frameworks */,
+				6BD92BB21586FB42001ED6EC /* Foundation.framework in Frameworks */,
+				6BD92BB41586FB42001ED6EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BD92BA01586FB42001ED6EC = {
+			isa = PBXGroup;
+			children = (
+				6B4E6076158CEF7A00595BD4 /* libsqlite3.0.dylib */,
+				6BD92BB51586FB42001ED6EC /* ConnectDB */,
+				6BD92BAE1586FB42001ED6EC /* Frameworks */,
+				6BD92BAC1586FB42001ED6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BD92BAC1586FB42001ED6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD92BAB1586FB42001ED6EC /* ConnectDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD92BAE1586FB42001ED6EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD92BAF1586FB42001ED6EC /* UIKit.framework */,
+				6BD92BB11586FB42001ED6EC /* Foundation.framework */,
+				6BD92BB31586FB42001ED6EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BD92BB51586FB42001ED6EC /* ConnectDB */ = {
+			isa = PBXGroup;
+			children = (
+				6BD92BBE1586FB42001ED6EC /* AppDelegate.h */,
+				6BD92BBF1586FB42001ED6EC /* AppDelegate.m */,
+				6BD92BC11586FB42001ED6EC /* MainStoryboard.storyboard */,
+				6BD92BC41586FB42001ED6EC /* ViewController.h */,
+				6BD92BC51586FB42001ED6EC /* ViewController.m */,
+				6BD92BB61586FB42001ED6EC /* Supporting Files */,
+			);
+			path = ConnectDB;
+			sourceTree = "<group>";
+		};
+		6BD92BB61586FB42001ED6EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BD92BCE1586FCCE001ED6EC /* mydb.sqlite */,
+				6BD92BB71586FB42001ED6EC /* ConnectDB-Info.plist */,
+				6BD92BB81586FB42001ED6EC /* InfoPlist.strings */,
+				6BD92BBB1586FB42001ED6EC /* main.m */,
+				6BD92BBD1586FB42001ED6EC /* ConnectDB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD92BAA1586FB42001ED6EC /* ConnectDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD92BC91586FB42001ED6EC /* Build configuration list for PBXNativeTarget "ConnectDB" */;
+			buildPhases = (
+				6BD92BA71586FB42001ED6EC /* Sources */,
+				6BD92BA81586FB42001ED6EC /* Frameworks */,
+				6BD92BA91586FB42001ED6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectDB;
+			productName = ConnectDB;
+			productReference = 6BD92BAB1586FB42001ED6EC /* ConnectDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BD92BA21586FB42001ED6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 6BD92BA51586FB42001ED6EC /* Build configuration list for PBXProject "ConnectDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BD92BA01586FB42001ED6EC;
+			productRefGroup = 6BD92BAC1586FB42001ED6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD92BAA1586FB42001ED6EC /* ConnectDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD92BA91586FB42001ED6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD92BBA1586FB42001ED6EC /* InfoPlist.strings in Resources */,
+				6BD92BC31586FB42001ED6EC /* MainStoryboard.storyboard in Resources */,
+				6BD92BCF1586FCCE001ED6EC /* mydb.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD92BA71586FB42001ED6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD92BBC1586FB42001ED6EC /* main.m in Sources */,
+				6BD92BC01586FB42001ED6EC /* AppDelegate.m in Sources */,
+				6BD92BC61586FB42001ED6EC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BD92BB81586FB42001ED6EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD92BB91586FB42001ED6EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BD92BC11586FB42001ED6EC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD92BC21586FB42001ED6EC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BD92BC71586FB42001ED6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BD92BC81586FB42001ED6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BD92BCA1586FB42001ED6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectDB/ConnectDB-Prefix.pch";
+				INFOPLIST_FILE = "ConnectDB/ConnectDB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BD92BCB1586FB42001ED6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectDB/ConnectDB-Prefix.pch";
+				INFOPLIST_FILE = "ConnectDB/ConnectDB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BD92BA51586FB42001ED6EC /* Build configuration list for PBXProject "ConnectDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD92BC71586FB42001ED6EC /* Debug */,
+				6BD92BC81586FB42001ED6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD92BC91586FB42001ED6EC /* Build configuration list for PBXNativeTarget "ConnectDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD92BCA1586FB42001ED6EC /* Debug */,
+				6BD92BCB1586FB42001ED6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BD92BA21586FB42001ED6EC /* Project object */;
+}

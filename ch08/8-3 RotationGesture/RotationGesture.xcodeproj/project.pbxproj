@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B467C12159F6B8D0006265E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B467C11159F6B8D0006265E /* UIKit.framework */; };
+		6B467C14159F6B8D0006265E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B467C13159F6B8D0006265E /* Foundation.framework */; };
+		6B467C16159F6B8D0006265E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B467C15159F6B8D0006265E /* CoreGraphics.framework */; };
+		6B467C1C159F6B8D0006265E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B467C1A159F6B8D0006265E /* InfoPlist.strings */; };
+		6B467C1E159F6B8D0006265E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B467C1D159F6B8D0006265E /* main.m */; };
+		6B467C22159F6B8D0006265E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B467C21159F6B8D0006265E /* AppDelegate.m */; };
+		6B467C25159F6B8D0006265E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B467C23159F6B8D0006265E /* MainStoryboard.storyboard */; };
+		6B467C28159F6B8D0006265E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B467C27159F6B8D0006265E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B467C0D159F6B8D0006265E /* RotationGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B467C11159F6B8D0006265E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B467C13159F6B8D0006265E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B467C15159F6B8D0006265E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B467C19159F6B8D0006265E /* RotationGesture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotationGesture-Info.plist"; sourceTree = "<group>"; };
+		6B467C1B159F6B8D0006265E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B467C1D159F6B8D0006265E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B467C1F159F6B8D0006265E /* RotationGesture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotationGesture-Prefix.pch"; sourceTree = "<group>"; };
+		6B467C20159F6B8D0006265E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B467C21159F6B8D0006265E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B467C24159F6B8D0006265E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6B467C26159F6B8D0006265E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B467C27159F6B8D0006265E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B467C0A159F6B8D0006265E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B467C12159F6B8D0006265E /* UIKit.framework in Frameworks */,
+				6B467C14159F6B8D0006265E /* Foundation.framework in Frameworks */,
+				6B467C16159F6B8D0006265E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B467C02159F6B8D0006265E = {
+			isa = PBXGroup;
+			children = (
+				6B467C17159F6B8D0006265E /* RotationGesture */,
+				6B467C10159F6B8D0006265E /* Frameworks */,
+				6B467C0E159F6B8D0006265E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B467C0E159F6B8D0006265E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B467C0D159F6B8D0006265E /* RotationGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B467C10159F6B8D0006265E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B467C11159F6B8D0006265E /* UIKit.framework */,
+				6B467C13159F6B8D0006265E /* Foundation.framework */,
+				6B467C15159F6B8D0006265E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B467C17159F6B8D0006265E /* RotationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				6B467C20159F6B8D0006265E /* AppDelegate.h */,
+				6B467C21159F6B8D0006265E /* AppDelegate.m */,
+				6B467C23159F6B8D0006265E /* MainStoryboard.storyboard */,
+				6B467C26159F6B8D0006265E /* ViewController.h */,
+				6B467C27159F6B8D0006265E /* ViewController.m */,
+				6B467C18159F6B8D0006265E /* Supporting Files */,
+			);
+			path = RotationGesture;
+			sourceTree = "<group>";
+		};
+		6B467C18159F6B8D0006265E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B467C19159F6B8D0006265E /* RotationGesture-Info.plist */,
+				6B467C1A159F6B8D0006265E /* InfoPlist.strings */,
+				6B467C1D159F6B8D0006265E /* main.m */,
+				6B467C1F159F6B8D0006265E /* RotationGesture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B467C0C159F6B8D0006265E /* RotationGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B467C2B159F6B8D0006265E /* Build configuration list for PBXNativeTarget "RotationGesture" */;
+			buildPhases = (
+				6B467C09159F6B8D0006265E /* Sources */,
+				6B467C0A159F6B8D0006265E /* Frameworks */,
+				6B467C0B159F6B8D0006265E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotationGesture;
+			productName = RotationGesture;
+			productReference = 6B467C0D159F6B8D0006265E /* RotationGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B467C04159F6B8D0006265E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "KoKang Chu";
+			};
+			buildConfigurationList = 6B467C07159F6B8D0006265E /* Build configuration list for PBXProject "RotationGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B467C02159F6B8D0006265E;
+			productRefGroup = 6B467C0E159F6B8D0006265E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B467C0C159F6B8D0006265E /* RotationGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B467C0B159F6B8D0006265E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B467C1C159F6B8D0006265E /* InfoPlist.strings in Resources */,
+				6B467C25159F6B8D0006265E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B467C09159F6B8D0006265E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B467C1E159F6B8D0006265E /* main.m in Sources */,
+				6B467C22159F6B8D0006265E /* AppDelegate.m in Sources */,
+				6B467C28159F6B8D0006265E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B467C1A159F6B8D0006265E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B467C1B159F6B8D0006265E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B467C23159F6B8D0006265E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B467C24159F6B8D0006265E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B467C29159F6B8D0006265E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B467C2A159F6B8D0006265E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B467C2C159F6B8D0006265E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationGesture/RotationGesture-Prefix.pch";
+				INFOPLIST_FILE = "RotationGesture/RotationGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B467C2D159F6B8D0006265E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationGesture/RotationGesture-Prefix.pch";
+				INFOPLIST_FILE = "RotationGesture/RotationGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B467C07159F6B8D0006265E /* Build configuration list for PBXProject "RotationGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B467C29159F6B8D0006265E /* Debug */,
+				6B467C2A159F6B8D0006265E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B467C2B159F6B8D0006265E /* Build configuration list for PBXNativeTarget "RotationGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B467C2C159F6B8D0006265E /* Debug */,
+				6B467C2D159F6B8D0006265E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B467C04159F6B8D0006265E /* Project object */;
+}

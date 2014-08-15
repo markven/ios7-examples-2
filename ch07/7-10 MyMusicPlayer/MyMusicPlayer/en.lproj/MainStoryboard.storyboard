@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rDk-Gz-U3d"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q4y-vy-ZKi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="歌名：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfR-qN-l1m">
+                                <rect key="frame" x="20" y="161" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pe3-bm-foG">
+                                <rect key="frame" x="123" y="161" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="專輯封面：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOY-hw-Hjs">
+                                <rect key="frame" x="20" y="10" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1lH-gi-Qqk">
+                                <rect key="frame" x="138" y="10" width="133" height="133"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="133" id="FJx-qD-ihd"/>
+                                    <constraint firstAttribute="width" constant="133" id="LhC-1n-PyA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="專輯名稱：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yah-P8-N83">
+                                <rect key="frame" x="20" y="195" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWE-Nf-NoD">
+                                <rect key="frame" x="123" y="195" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SN8-d1-jkY">
+                                <rect key="frame" x="138" y="393" width="45" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="下一首">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextSong:" destination="2" eventType="touchUpInside" id="TFe-9c-XEY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="歌手：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VjV-gO-Hka">
+                                <rect key="frame" x="20" y="252" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwI-Fd-Ih8">
+                                <rect key="frame" x="123" y="252" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yah-P8-N83" firstAttribute="top" secondItem="3" secondAttribute="top" constant="195" id="0MK-EZ-9yZ"/>
+                            <constraint firstItem="SN8-d1-jkY" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="B4o-os-DKX"/>
+                            <constraint firstAttribute="bottom" secondItem="SN8-d1-jkY" secondAttribute="bottom" constant="57" id="B9q-r7-Loo"/>
+                            <constraint firstItem="1lH-gi-Qqk" firstAttribute="top" secondItem="3" secondAttribute="top" constant="10" id="CEP-oa-8xt"/>
+                            <constraint firstAttribute="bottom" secondItem="VjV-gO-Hka" secondAttribute="bottom" constant="207" id="GFU-mb-LsZ"/>
+                            <constraint firstItem="SN8-d1-jkY" firstAttribute="leading" secondItem="1lH-gi-Qqk" secondAttribute="leading" id="GTg-Ko-G5N"/>
+                            <constraint firstItem="bfR-qN-l1m" firstAttribute="top" secondItem="3" secondAttribute="top" constant="161" id="H53-44-iNH"/>
+                            <constraint firstItem="eOY-hw-Hjs" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="MVi-SS-dmw"/>
+                            <constraint firstItem="1lH-gi-Qqk" firstAttribute="top" secondItem="eOY-hw-Hjs" secondAttribute="top" id="Mxq-nQ-4tV"/>
+                            <constraint firstItem="bfR-qN-l1m" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="PpV-DY-xgz"/>
+                            <constraint firstItem="LwI-Fd-Ih8" firstAttribute="baseline" secondItem="VjV-gO-Hka" secondAttribute="baseline" id="Tiv-ht-QSN"/>
+                            <constraint firstItem="VjV-gO-Hka" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="cZk-ET-fj9"/>
+                            <constraint firstItem="bfR-qN-l1m" firstAttribute="baseline" secondItem="Pe3-bm-foG" secondAttribute="baseline" id="dHD-uM-ffU"/>
+                            <constraint firstItem="Yah-P8-N83" firstAttribute="baseline" secondItem="zWE-Nf-NoD" secondAttribute="baseline" id="fti-7g-QYp"/>
+                            <constraint firstItem="Pe3-bm-foG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="123" id="idT-yc-gp8"/>
+                            <constraint firstItem="LwI-Fd-Ih8" firstAttribute="leading" secondItem="zWE-Nf-NoD" secondAttribute="leading" id="k32-ED-qgQ"/>
+                            <constraint firstItem="zWE-Nf-NoD" firstAttribute="leading" secondItem="Pe3-bm-foG" secondAttribute="leading" id="ysM-8f-HD6"/>
+                            <constraint firstItem="Yah-P8-N83" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="zQF-yr-0XV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="albumLabel" destination="zWE-Nf-NoD" id="HJP-Nz-jtt"/>
+                        <outlet property="artistLabel" destination="LwI-Fd-Ih8" id="8Lw-Pj-4Ta"/>
+                        <outlet property="artworkImage" destination="1lH-gi-Qqk" id="f4i-fa-sLF"/>
+                        <outlet property="titleLabel" destination="Pe3-bm-foG" id="SfS-gc-2LV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

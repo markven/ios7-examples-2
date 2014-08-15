@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="coD-CS-NjR"/>
+                        <viewControllerLayoutGuide type="bottom" id="DSC-ld-0c8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pitch:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lK-V4-XnK">
+                                <rect key="frame" x="70" y="59" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Roll:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vj-dI-Fhy">
+                                <rect key="frame" x="70" y="109" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Yaw:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR4-Yo-wwi">
+                                <rect key="frame" x="70" y="164" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vf-Vx-1eb">
+                                <rect key="frame" x="162" y="57" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2d-Je-zxS">
+                                <rect key="frame" x="162" y="109" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cC-dV-4EL">
+                                <rect key="frame" x="162" y="164" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2vf-Vx-1eb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="57" id="2AN-z8-yO8"/>
+                            <constraint firstItem="3Vj-dI-Fhy" firstAttribute="top" secondItem="3" secondAttribute="top" constant="109" id="37w-Ao-RqI"/>
+                            <constraint firstAttribute="trailing" secondItem="2vf-Vx-1eb" secondAttribute="trailing" constant="116" id="7LJ-Ia-dkc"/>
+                            <constraint firstItem="3Vj-dI-Fhy" firstAttribute="width" secondItem="0lK-V4-XnK" secondAttribute="width" id="7uo-xZ-qgR"/>
+                            <constraint firstItem="3Vj-dI-Fhy" firstAttribute="width" secondItem="GR4-Yo-wwi" secondAttribute="width" id="HuS-1q-pnt"/>
+                            <constraint firstItem="1cC-dV-4EL" firstAttribute="top" secondItem="GR4-Yo-wwi" secondAttribute="top" id="MYv-CW-wAR"/>
+                            <constraint firstItem="GR4-Yo-wwi" firstAttribute="top" secondItem="3" secondAttribute="top" constant="164" id="RJx-mK-ZMe"/>
+                            <constraint firstItem="1cC-dV-4EL" firstAttribute="leading" secondItem="K2d-Je-zxS" secondAttribute="leading" id="UuL-BD-hxW"/>
+                            <constraint firstItem="K2d-Je-zxS" firstAttribute="top" secondItem="3Vj-dI-Fhy" secondAttribute="top" id="dmy-Cf-YhV"/>
+                            <constraint firstItem="3Vj-dI-Fhy" firstAttribute="leading" secondItem="0lK-V4-XnK" secondAttribute="leading" id="jmr-gb-qsc"/>
+                            <constraint firstItem="GR4-Yo-wwi" firstAttribute="leading" secondItem="3Vj-dI-Fhy" secondAttribute="leading" id="s2g-IR-Srj"/>
+                            <constraint firstItem="0lK-V4-XnK" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="70" id="ucY-Vn-JSI"/>
+                            <constraint firstItem="0lK-V4-XnK" firstAttribute="top" secondItem="3" secondAttribute="top" constant="59" id="wJ1-Bc-YzV"/>
+                            <constraint firstItem="K2d-Je-zxS" firstAttribute="leading" secondItem="2vf-Vx-1eb" secondAttribute="leading" id="wPZ-6t-buB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pitchLabel" destination="2vf-Vx-1eb" id="acs-L9-qrh"/>
+                        <outlet property="rollLabel" destination="K2d-Je-zxS" id="iTg-ck-HRI"/>
+                        <outlet property="yawLabel" destination="1cC-dV-4EL" id="B6h-TC-MBq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

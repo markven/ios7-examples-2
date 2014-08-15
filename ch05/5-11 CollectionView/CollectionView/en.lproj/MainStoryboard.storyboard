@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gvM-Af-RFn"/>
+                        <viewControllerLayoutGuide type="bottom" id="b0b-pi-hSs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Twn-id-KUV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kkp-hn-eDh">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="zLw-KT-gzk" customClass="MyCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="w44-Tu-s73">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="w44-Tu-s73" firstAttribute="bottom" secondItem="zLw-KT-gzk" secondAttribute="bottom" id="4F3-mr-LAi"/>
+                                            <constraint firstItem="w44-Tu-s73" firstAttribute="leading" secondItem="zLw-KT-gzk" secondAttribute="leading" id="VlE-pF-jEG"/>
+                                            <constraint firstItem="w44-Tu-s73" firstAttribute="trailing" secondItem="zLw-KT-gzk" secondAttribute="trailing" id="b0O-fS-RWh"/>
+                                            <constraint firstItem="w44-Tu-s73" firstAttribute="top" secondItem="zLw-KT-gzk" secondAttribute="top" id="rl0-0T-Vbm"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="w44-Tu-s73" id="KBU-AQ-BO2"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="fuJ-nB-pCI"/>
+                                    <outlet property="delegate" destination="2" id="T6Z-fc-JoB"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Twn-id-KUV" firstAttribute="top" secondItem="3" secondAttribute="top" id="3av-zz-5Mb"/>
+                            <constraint firstItem="Twn-id-KUV" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="HXk-WX-D7h"/>
+                            <constraint firstItem="Twn-id-KUV" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="LaE-7n-l1V"/>
+                            <constraint firstItem="Twn-id-KUV" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="WTC-Hs-QMr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colView" destination="Twn-id-KUV" id="nOl-jE-FPE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

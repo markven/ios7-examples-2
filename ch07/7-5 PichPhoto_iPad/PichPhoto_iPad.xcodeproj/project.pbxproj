@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B400BE1159C2CBC00FD8336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B400BE0159C2CBC00FD8336 /* UIKit.framework */; };
+		6B400BE3159C2CBC00FD8336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B400BE2159C2CBC00FD8336 /* Foundation.framework */; };
+		6B400BE5159C2CBC00FD8336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B400BE4159C2CBC00FD8336 /* CoreGraphics.framework */; };
+		6B400BEB159C2CBC00FD8336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B400BE9159C2CBC00FD8336 /* InfoPlist.strings */; };
+		6B400BED159C2CBC00FD8336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B400BEC159C2CBC00FD8336 /* main.m */; };
+		6B400BF1159C2CBC00FD8336 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B400BF0159C2CBC00FD8336 /* AppDelegate.m */; };
+		6B400BF4159C2CBC00FD8336 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B400BF2159C2CBC00FD8336 /* MainStoryboard.storyboard */; };
+		6B400BF7159C2CBC00FD8336 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B400BF6159C2CBC00FD8336 /* ViewController.m */; };
+		6B400BFE159C2D3800FD8336 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B400BFD159C2D3800FD8336 /* AssetsLibrary.framework */; };
+		6B400C00159C2D4400FD8336 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B400BFF159C2D4400FD8336 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B400BDC159C2CBC00FD8336 /* PichPhoto_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PichPhoto_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B400BE0159C2CBC00FD8336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B400BE2159C2CBC00FD8336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B400BE4159C2CBC00FD8336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B400BE8159C2CBC00FD8336 /* PichPhoto_iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PichPhoto_iPad-Info.plist"; sourceTree = "<group>"; };
+		6B400BEA159C2CBC00FD8336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B400BEC159C2CBC00FD8336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B400BEE159C2CBC00FD8336 /* PichPhoto_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PichPhoto_iPad-Prefix.pch"; sourceTree = "<group>"; };
+		6B400BEF159C2CBC00FD8336 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B400BF0159C2CBC00FD8336 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B400BF3159C2CBC00FD8336 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6B400BF5159C2CBC00FD8336 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B400BF6159C2CBC00FD8336 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B400BFD159C2D3800FD8336 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6B400BFF159C2D4400FD8336 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B400BD9159C2CBC00FD8336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B400C00159C2D4400FD8336 /* MobileCoreServices.framework in Frameworks */,
+				6B400BFE159C2D3800FD8336 /* AssetsLibrary.framework in Frameworks */,
+				6B400BE1159C2CBC00FD8336 /* UIKit.framework in Frameworks */,
+				6B400BE3159C2CBC00FD8336 /* Foundation.framework in Frameworks */,
+				6B400BE5159C2CBC00FD8336 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B400BD1159C2CBC00FD8336 = {
+			isa = PBXGroup;
+			children = (
+				6B400BFF159C2D4400FD8336 /* MobileCoreServices.framework */,
+				6B400BFD159C2D3800FD8336 /* AssetsLibrary.framework */,
+				6B400BE6159C2CBC00FD8336 /* PichPhoto_iPad */,
+				6B400BDF159C2CBC00FD8336 /* Frameworks */,
+				6B400BDD159C2CBC00FD8336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B400BDD159C2CBC00FD8336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B400BDC159C2CBC00FD8336 /* PichPhoto_iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B400BDF159C2CBC00FD8336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B400BE0159C2CBC00FD8336 /* UIKit.framework */,
+				6B400BE2159C2CBC00FD8336 /* Foundation.framework */,
+				6B400BE4159C2CBC00FD8336 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B400BE6159C2CBC00FD8336 /* PichPhoto_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				6B400BEF159C2CBC00FD8336 /* AppDelegate.h */,
+				6B400BF0159C2CBC00FD8336 /* AppDelegate.m */,
+				6B400BF2159C2CBC00FD8336 /* MainStoryboard.storyboard */,
+				6B400BF5159C2CBC00FD8336 /* ViewController.h */,
+				6B400BF6159C2CBC00FD8336 /* ViewController.m */,
+				6B400BE7159C2CBC00FD8336 /* Supporting Files */,
+			);
+			path = PichPhoto_iPad;
+			sourceTree = "<group>";
+		};
+		6B400BE7159C2CBC00FD8336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B400BE8159C2CBC00FD8336 /* PichPhoto_iPad-Info.plist */,
+				6B400BE9159C2CBC00FD8336 /* InfoPlist.strings */,
+				6B400BEC159C2CBC00FD8336 /* main.m */,
+				6B400BEE159C2CBC00FD8336 /* PichPhoto_iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B400BDB159C2CBC00FD8336 /* PichPhoto_iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B400BFA159C2CBC00FD8336 /* Build configuration list for PBXNativeTarget "PichPhoto_iPad" */;
+			buildPhases = (
+				6B400BD8159C2CBC00FD8336 /* Sources */,
+				6B400BD9159C2CBC00FD8336 /* Frameworks */,
+				6B400BDA159C2CBC00FD8336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PichPhoto_iPad;
+			productName = PichPhoto_iPad;
+			productReference = 6B400BDC159C2CBC00FD8336 /* PichPhoto_iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B400BD3159C2CBC00FD8336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "KoKang Chu";
+			};
+			buildConfigurationList = 6B400BD6159C2CBC00FD8336 /* Build configuration list for PBXProject "PichPhoto_iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B400BD1159C2CBC00FD8336;
+			productRefGroup = 6B400BDD159C2CBC00FD8336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B400BDB159C2CBC00FD8336 /* PichPhoto_iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B400BDA159C2CBC00FD8336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B400BEB159C2CBC00FD8336 /* InfoPlist.strings in Resources */,
+				6B400BF4159C2CBC00FD8336 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B400BD8159C2CBC00FD8336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B400BED159C2CBC00FD8336 /* main.m in Sources */,
+				6B400BF1159C2CBC00FD8336 /* AppDelegate.m in Sources */,
+				6B400BF7159C2CBC00FD8336 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B400BE9159C2CBC00FD8336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B400BEA159C2CBC00FD8336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B400BF2159C2CBC00FD8336 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B400BF3159C2CBC00FD8336 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B400BF8159C2CBC00FD8336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6B400BF9159C2CBC00FD8336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B400BFB159C2CBC00FD8336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PichPhoto_iPad/PichPhoto_iPad-Prefix.pch";
+				INFOPLIST_FILE = "PichPhoto_iPad/PichPhoto_iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B400BFC159C2CBC00FD8336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PichPhoto_iPad/PichPhoto_iPad-Prefix.pch";
+				INFOPLIST_FILE = "PichPhoto_iPad/PichPhoto_iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B400BD6159C2CBC00FD8336 /* Build configuration list for PBXProject "PichPhoto_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B400BF8159C2CBC00FD8336 /* Debug */,
+				6B400BF9159C2CBC00FD8336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B400BFA159C2CBC00FD8336 /* Build configuration list for PBXNativeTarget "PichPhoto_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B400BFB159C2CBC00FD8336 /* Debug */,
+				6B400BFC159C2CBC00FD8336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B400BD3159C2CBC00FD8336 /* Project object */;
+}

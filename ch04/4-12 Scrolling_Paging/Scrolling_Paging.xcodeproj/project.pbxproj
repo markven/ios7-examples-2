@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BCC12DB1599F2C600DDD25B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCC12DA1599F2C600DDD25B /* UIKit.framework */; };
+		6BCC12DD1599F2C600DDD25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCC12DC1599F2C600DDD25B /* Foundation.framework */; };
+		6BCC12DF1599F2C600DDD25B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCC12DE1599F2C600DDD25B /* CoreGraphics.framework */; };
+		6BCC12E51599F2C600DDD25B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC12E31599F2C600DDD25B /* InfoPlist.strings */; };
+		6BCC12E71599F2C600DDD25B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC12E61599F2C600DDD25B /* main.m */; };
+		6BCC12EB1599F2C600DDD25B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC12EA1599F2C600DDD25B /* AppDelegate.m */; };
+		6BCC12EE1599F2C600DDD25B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC12EC1599F2C600DDD25B /* MainStoryboard.storyboard */; };
+		6BCC12F11599F2C600DDD25B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC12F01599F2C600DDD25B /* ViewController.m */; };
+		6BCC12FA1599F2D700DDD25B /* image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC12F71599F2D700DDD25B /* image01.jpg */; };
+		6BCC12FB1599F2D700DDD25B /* image02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC12F81599F2D700DDD25B /* image02.jpg */; };
+		6BCC12FC1599F2D700DDD25B /* image03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC12F91599F2D700DDD25B /* image03.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BCC12D61599F2C600DDD25B /* Scrolling_Paging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrolling_Paging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCC12DA1599F2C600DDD25B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BCC12DC1599F2C600DDD25B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BCC12DE1599F2C600DDD25B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BCC12E21599F2C600DDD25B /* Scrolling_Paging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scrolling_Paging-Info.plist"; sourceTree = "<group>"; };
+		6BCC12E41599F2C600DDD25B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BCC12E61599F2C600DDD25B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BCC12E81599F2C600DDD25B /* Scrolling_Paging-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scrolling_Paging-Prefix.pch"; sourceTree = "<group>"; };
+		6BCC12E91599F2C600DDD25B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BCC12EA1599F2C600DDD25B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BCC12ED1599F2C600DDD25B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6BCC12EF1599F2C600DDD25B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BCC12F01599F2C600DDD25B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BCC12F71599F2D700DDD25B /* image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image01.jpg; sourceTree = "<group>"; };
+		6BCC12F81599F2D700DDD25B /* image02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image02.jpg; sourceTree = "<group>"; };
+		6BCC12F91599F2D700DDD25B /* image03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image03.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCC12D31599F2C600DDD25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCC12DB1599F2C600DDD25B /* UIKit.framework in Frameworks */,
+				6BCC12DD1599F2C600DDD25B /* Foundation.framework in Frameworks */,
+				6BCC12DF1599F2C600DDD25B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BCC12CB1599F2C600DDD25B = {
+			isa = PBXGroup;
+			children = (
+				6BCC12E01599F2C600DDD25B /* Scrolling_Paging */,
+				6BCC12D91599F2C600DDD25B /* Frameworks */,
+				6BCC12D71599F2C600DDD25B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCC12D71599F2C600DDD25B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC12D61599F2C600DDD25B /* Scrolling_Paging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCC12D91599F2C600DDD25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC12DA1599F2C600DDD25B /* UIKit.framework */,
+				6BCC12DC1599F2C600DDD25B /* Foundation.framework */,
+				6BCC12DE1599F2C600DDD25B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BCC12E01599F2C600DDD25B /* Scrolling_Paging */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC12E91599F2C600DDD25B /* AppDelegate.h */,
+				6BCC12EA1599F2C600DDD25B /* AppDelegate.m */,
+				6BCC12EC1599F2C600DDD25B /* MainStoryboard.storyboard */,
+				6BCC12EF1599F2C600DDD25B /* ViewController.h */,
+				6BCC12F01599F2C600DDD25B /* ViewController.m */,
+				6BCC12E11599F2C600DDD25B /* Supporting Files */,
+			);
+			path = Scrolling_Paging;
+			sourceTree = "<group>";
+		};
+		6BCC12E11599F2C600DDD25B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC12F71599F2D700DDD25B /* image01.jpg */,
+				6BCC12F81599F2D700DDD25B /* image02.jpg */,
+				6BCC12F91599F2D700DDD25B /* image03.jpg */,
+				6BCC12E21599F2C600DDD25B /* Scrolling_Paging-Info.plist */,
+				6BCC12E31599F2C600DDD25B /* InfoPlist.strings */,
+				6BCC12E61599F2C600DDD25B /* main.m */,
+				6BCC12E81599F2C600DDD25B /* Scrolling_Paging-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCC12D51599F2C600DDD25B /* Scrolling_Paging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCC12F41599F2C600DDD25B /* Build configuration list for PBXNativeTarget "Scrolling_Paging" */;
+			buildPhases = (
+				6BCC12D21599F2C600DDD25B /* Sources */,
+				6BCC12D31599F2C600DDD25B /* Frameworks */,
+				6BCC12D41599F2C600DDD25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrolling_Paging;
+			productName = Scrolling_Paging;
+			productReference = 6BCC12D61599F2C600DDD25B /* Scrolling_Paging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCC12CD1599F2C600DDD25B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "KoKang Chu";
+			};
+			buildConfigurationList = 6BCC12D01599F2C600DDD25B /* Build configuration list for PBXProject "Scrolling_Paging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BCC12CB1599F2C600DDD25B;
+			productRefGroup = 6BCC12D71599F2C600DDD25B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCC12D51599F2C600DDD25B /* Scrolling_Paging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCC12D41599F2C600DDD25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCC12E51599F2C600DDD25B /* InfoPlist.strings in Resources */,
+				6BCC12EE1599F2C600DDD25B /* MainStoryboard.storyboard in Resources */,
+				6BCC12FA1599F2D700DDD25B /* image01.jpg in Resources */,
+				6BCC12FB1599F2D700DDD25B /* image02.jpg in Resources */,
+				6BCC12FC1599F2D700DDD25B /* image03.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCC12D21599F2C600DDD25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCC12E71599F2C600DDD25B /* main.m in Sources */,
+				6BCC12EB1599F2C600DDD25B /* AppDelegate.m in Sources */,
+				6BCC12F11599F2C600DDD25B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BCC12E31599F2C600DDD25B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCC12E41599F2C600DDD25B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BCC12EC1599F2C600DDD25B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCC12ED1599F2C600DDD25B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCC12F21599F2C600DDD25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BCC12F31599F2C600DDD25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BCC12F51599F2C600DDD25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrolling_Paging/Scrolling_Paging-Prefix.pch";
+				INFOPLIST_FILE = "Scrolling_Paging/Scrolling_Paging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BCC12F61599F2C600DDD25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrolling_Paging/Scrolling_Paging-Prefix.pch";
+				INFOPLIST_FILE = "Scrolling_Paging/Scrolling_Paging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCC12D01599F2C600DDD25B /* Build configuration list for PBXProject "Scrolling_Paging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCC12F21599F2C600DDD25B /* Debug */,
+				6BCC12F31599F2C600DDD25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCC12F41599F2C600DDD25B /* Build configuration list for PBXNativeTarget "Scrolling_Paging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCC12F51599F2C600DDD25B /* Debug */,
+				6BCC12F61599F2C600DDD25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BCC12CD1599F2C600DDD25B /* Project object */;
+}

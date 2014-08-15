@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xyI-HY-GKw"/>
+                        <viewControllerLayoutGuide type="bottom" id="0sk-jb-gqX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oy0-Nh-hXa">
+                                <rect key="frame" x="145" y="33" width="30" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="下載">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="downloadButton:" destination="2" eventType="touchUpInside" id="yDz-9f-2cH"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M85-f0-oZB">
+                                <rect key="frame" x="85" y="110" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="HTZ-mC-vaq"/>
+                                </constraints>
+                            </progressView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="O26-TF-doi">
+                                <rect key="frame" x="30" y="166" width="260" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="188" id="1Ft-M6-kfe"/>
+                                    <constraint firstAttribute="width" constant="260" id="e5t-aW-J3t"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O26-TF-doi" firstAttribute="top" secondItem="3" secondAttribute="top" constant="166" id="2yG-CE-k4i"/>
+                            <constraint firstItem="O26-TF-doi" firstAttribute="centerX" secondItem="M85-f0-oZB" secondAttribute="centerX" id="4Ud-n6-SKE"/>
+                            <constraint firstItem="Oy0-Nh-hXa" firstAttribute="top" secondItem="3" secondAttribute="top" constant="33" id="7eK-NG-S4g"/>
+                            <constraint firstItem="O26-TF-doi" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="bCh-hQ-4hr"/>
+                            <constraint firstItem="M85-f0-oZB" firstAttribute="centerX" secondItem="Oy0-Nh-hXa" secondAttribute="centerX" id="tKX-eo-T7u"/>
+                            <constraint firstItem="M85-f0-oZB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="110" id="u3N-tW-GWB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="downloadProgress" destination="M85-f0-oZB" id="Vlj-OI-10v"/>
+                        <outlet property="myImg" destination="O26-TF-doi" id="Eoq-bt-C9e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163" y="-22"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
